@@ -1,0 +1,105 @@
+@media (min-width: 375px) {
+
+    #para{
+        width: 70%;
+        text-align: center;
+        color: grey;
+        padding-left: 50px;
+    }
+    .order{
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .plan{
+        width: 30%;
+        padding-left: 25px;
+    }
+    #annual{
+        font-weight: bold;
+    }
+    .musplan{
+        display: flex;
+    }
+    .musplancolor{
+        background-color: #f8f9fe;
+         border-radius: 8px;
+         width: 90%;
+    }
+    .movempc{
+        padding-left: 30px;
+    }
+    #iconmusic{
+        width: auto;
+        height: 50%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #change{
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    
+    #btn{
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 8px;
+        width: 312px;
+        height: 50px;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    .proceed{
+        padding-top: 30px;
+    }
+    
+    #cancel{
+        color: grey;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .movecancel{
+        padding-top: 20px;
+    }
+    .moctext{
+        background-color: white;
+            border-radius: 0px 0px 15px 15px;
+            width: 95%;
+            height: 400px;
+            position: relative;
+            bottom: 24px;
+    }
+    .orderpara{
+        padding-left: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1285px) {
+
+.moctext{
+    width: 46%;
+}
+.orderpara{
+    padding-left: 537px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

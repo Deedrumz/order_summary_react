@@ -1,0 +1,23 @@
+@media (min-width: 375px) {
+    .hero{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 90%;
+    }
+    #movehero{
+        padding-top: 30px;
+        
+    }
+
+}
+
+
+@media (min-width: 1285px) {
+
+.hero{
+    width: 30%;
+}
+
+
+}
+

@@ -1,0 +1,97 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+
+@media (min-width: 375px){
+
+}
+
+
+
+
+
+
+@media (min-width: 800px){
+    body{
+        background-image: url(./pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .all{
+        width: fit-content;
+    }
+    .all2{
+    padding-left: 520px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .moc{
+        background-color: white;
+        border-radius: 0px 0px 15px 15px;
+        /* box-shadow: 5px 2px 2px 3px rgb(216, 206, 206); */
+        width: auto;
+        height: 400px;
+    }
+    h5{
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+        padding-top: 50px;
+    }
+    #hero{
+        border-radius: 15px 15px 0px 0px;
+    }
+    #para{
+        text-align: center;
+        padding-top: 10px;
+        color: grey;
+    }
+    .ma{
+        display: flex;
+    }
+    .sec3{
+        width: 315px;
+        height: 80px;
+        background-color: #f8f9fe;
+        border-radius: 8px;
+    }
+    .movesec3{
+        padding-left: 70px;
+    }
+    #mi{
+        padding-left: 15px;
+    }
+    #plan{
+        padding-left: 10px;
+    }
+    #annual{
+        font-weight: bold;
+    }
+    #change{
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-right: 15px;
+    }
+    .machange{
+        display: flex;
+        padding-top: 15px;
+    }
+    #payment{
+        width: 300px;
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 8px;
+    }
+    .movepayment{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    #cancel{
+        font-weight: bold;
+        padding-left: 180px;
+        color: grey;
+        text-decoration: none;
+    }
+    .movecancel{
+        padding-top: 20px;
+    }
+}
+
