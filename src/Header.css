@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     .hero{
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
@@ -11,6 +11,54 @@
 
 }
 
+/* MEDIA QUERY FOR 480 */
+
+@media (min-width: 480px) {
+.hero{
+    width: 92%;
+    padding-right: 8px;
+}
+
+
+
+}
+
+/* MEDIA QUERY FOR 600 */
+
+@media (min-width: 600px) {
+.hero{
+    width: 92%;
+}
+
+
+
+}
+
+
+/* MEDIA QUERY FOR 800 */
+
+@media (min-width: 800px) {
+
+
+
+
+}
+
+
+/* MEDIA QUERY FOR 1025 */
+
+@media (min-width: 1025px) {
+
+    .hero{
+        width: 60%;
+    }
+
+
+}
+
+
+
+/* MEDIA QUERY FOR 1285 */
 
 @media (min-width: 1285px) {
 

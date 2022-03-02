@@ -11,10 +11,13 @@ const Main = () => {
 
                                               <div className='moctext'>
                                                         <h2 className='order'>Order Summary</h2>
+                                                        <div className='movepara'>
                                                         <p id="para">You can now listen to million of songs,
                                                           audiobooks, and podcasts on any device
                                                           anywhere you like!
                                                       </p>
+                                                        </div>
+                                                        
         
 
                           

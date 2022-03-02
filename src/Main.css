@@ -1,4 +1,4 @@
-@media (min-width: 375px) {
+@media (min-width: 320px) {
 
     #para{
         width: 70%;
@@ -36,14 +36,14 @@
         padding-top: 10px;
     }
     #change{
-        padding-left: 40px;
+        padding-left: 25px;
         padding-top: 25px;
     }
     
     #btn{
         background-color: hsl(245, 75%, 52%);
         border-radius: 8px;
-        width: 312px;
+        width: 250px;
         height: 50px;
         color: whitesmoke;
         font-weight: bold;
@@ -59,6 +59,7 @@
     }
     .movecancel{
         padding-top: 20px;
+        padding-bottom: 20px;
     }
     .moctext{
         background-color: white;
@@ -69,13 +70,100 @@
             bottom: 24px;
     }
     .orderpara{
-        padding-left: 20px;
+        padding-left: 15px;
+        text-align: center;
     }
 
 
 }
 
+/* MEDIA QUERY FOR 480 */
 
+@media (min-width: 480px) {
+#btn{
+    width: 370px;
+}
+#para{
+    text-align: center;
+    padding-left: 60px;
+}
+#change{
+    padding-left: 70px;
+}
+#annual{
+    padding-left: 20px;
+}
+
+
+}
+
+/* MEDIA QUERY FOR 600 */
+
+@media (min-width: 600px) {
+.orderpara{
+    padding-left: 20px;
+}
+#btn{
+    width: 450px;
+}
+.proceed{
+    padding-right: 20px;
+}
+.musplan{
+    padding-left: 20px;
+}
+.movecancel{
+    padding-right: 20px;
+}
+
+
+}
+
+
+/* MEDIA QUERY FOR 800 */
+
+@media (min-width: 800px) {
+
+
+
+
+}
+
+
+/* MEDIA QUERY FOR 1025 */
+
+@media (min-width: 1025px) {
+
+    .moctext{
+        width: 46%;
+    }
+    .orderpara{
+        padding-left: 307px;
+    }
+.moctext{
+    width: 86%;
+    right: 108px;
+}
+#para{
+   width: 50%;
+   padding-left: 150px;
+}
+.musplancolor{
+    width: 80%;
+}
+.movempc{
+    padding-left: 100px;
+}
+#btn{
+    width: 410px;
+}
+.proceed{
+    padding-left: 30px;
+}
+
+
+
+}
 
 
 
@@ -83,12 +171,26 @@
 @media (min-width: 1285px) {
 
 .moctext{
-    width: 46%;
+    width: 37.7%;
+    left: 225px;
 }
-.orderpara{
-    padding-left: 537px;
+#para{
+    width: 70%;
+    position: relative;
+    right: 80px;
 }
-
+.musplancolor{
+    width: 98%;
+}
+.movempc{
+    position: relative;
+    right: 70px;
+    width: 90%;
+}
+.movecancel{
+    position: relative;
+    left: 20px;
+}
 
 
 
